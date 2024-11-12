@@ -1,4 +1,5 @@
 import { Hero } from "@/components/Hero";
+import { KeyMetrics } from "@/components/KeyMetrics";
 import { LogoAnimation } from "@/components/LogoAnimation";
 import { Navbar } from "@/components/Navbar";
 import { Portfolio } from "@/components/Portfolio";
@@ -10,6 +11,7 @@ export default function Home() {
     <Hero />
     <Stack />
     <Portfolio/>
+    <KeyMetrics/>
   </>
   );
 }
