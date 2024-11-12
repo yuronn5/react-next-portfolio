@@ -1,6 +1,7 @@
 import { Hero } from "@/components/Hero";
 import { LogoAnimation } from "@/components/LogoAnimation";
 import { Navbar } from "@/components/Navbar";
+import { Portfolio } from "@/components/Portfolio";
 import { Stack } from "@/components/Stack";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
   <>
     <Hero />
     <Stack />
+    <Portfolio/>
   </>
   );
 }
