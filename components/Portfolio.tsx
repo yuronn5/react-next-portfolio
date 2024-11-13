@@ -12,21 +12,21 @@ const projects = [
     id: 1,
     year: 2023,
     title: "Customer support chatbot",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing elit",
+    description: "We built an advanced customer support chatbot for Doodle. Our chatbot now handles 87% of Doodle's customer support inquiries, freeing up their team to focus on more complex issues.",
     image: project1,
   },
   {
     id: 2,
     year: 2024,
     title: "Dash - AI chatting app",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing elit",
+    description: "We developed Dash, an AI-powered calling system that enhances customer communication and support with automated features.",
     image: project2,
   },
   {
     id: 3,
     year: 2024,
     title: "Atomic - AI driven outsourcing",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing elit",
+    description: "Atomic is our AI-driven outreach tool that maximizes engagement and conversions through intelligent automation.",
     image: project3,
   },
 ];
@@ -53,7 +53,7 @@ export const Portfolio = () => {
       <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12">
         <div>
           <h2 className="text-6xl font-bold mb-10">
-            Selected <span className="text-gray-400">Projects</span>
+            Selected <span className="text-purple-400">Projects</span>
           </h2>
           {projects.map((project) => (
             <div
@@ -63,14 +63,14 @@ export const Portfolio = () => {
             >
               <p className="text-gray-400 text-lg mb-2">{project.year}</p>
               <h3
-                className={`text-3xl font-semibold group-hover:text-gray-400 transition-colors ${
-                  selectedProject.id === project.id ? "text-gray-200" : ""
+                className={`text-3xl font-semibold group-hover:text-purple-400 transition-colors ${
+                  selectedProject.id === project.id ? "text-purple-200" : ""
                 } duration-300`}
               >
                 {project.title}
               </h3>
               {selectedProject.id === project.id && (
-                <div className="border-b-2 border-gray-200 my-4"></div>
+                <div className="border-b-2 border-purple-200 my-4"></div>
               )}
               {selectedProject.id === project.id && (
                 <p className="text-gray-400 transition-all duration-500 ease-in-out">
