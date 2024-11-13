@@ -3,6 +3,7 @@ import { KeyMetrics } from "@/components/KeyMetrics";
 import { LogoAnimation } from "@/components/LogoAnimation";
 import { Navbar } from "@/components/Navbar";
 import { Portfolio } from "@/components/Portfolio";
+import { Services } from "@/components/Services";
 import { Stack } from "@/components/Stack";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
     <Stack />
     <Portfolio/>
     <KeyMetrics/>
+    <Services/>
   </>
   );
 }
