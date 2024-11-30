@@ -39,7 +39,7 @@ export const Hero = () => {
           Yurii Bilous
         </h1>
         <h2 className="mt-6 max-w-1xl bg-gradient-to-br from-white to-gray-400 bg-clip-text font-black leading-tight text-transparent text-1xl md:text-2xl">
-          E-Commerce Front-End Specialist
+          E-Commerce Front-End Specialist | 5+ Years of Experience
         </h2>
         <Image src={profilepic} alt="profile-pic" width={250} />
         {/* <div className="flex bg-white/10 shadow-xl p-3 rounded-3xl justify-center items-center space-x-2 mb-4">
