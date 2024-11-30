@@ -5,30 +5,47 @@ import Image from "next/image";
 import project1 from "@/assets/proj5.png";
 import project2 from "@/assets/proj6.png";
 import project3 from "@/assets/proj7.png";
-import { useMotionTemplate, useMotionValue, motion, animate } from "framer-motion";
+import project4 from "@/assets/proj8.png";
+import {
+  useMotionTemplate,
+  useMotionValue,
+  motion,
+  animate,
+} from "framer-motion";
 
 const projects = [
   {
     id: 1,
-    year: 2023,
-    title: "Customer support chatbot",
-    description: "We built an advanced customer support chatbot for Doodle. Our chatbot now handles 87% of Doodle's customer support inquiries, freeing up their team to focus on more complex issues.",
-    image: project1,
-  },
-  {
-    id: 2,
-    year: 2024,
-    title: "Dash - AI chatting app",
-    description: "We developed Dash, an AI-powered calling system that enhances customer communication and support with automated features.",
+    year: 2021,
+    title: "Jewelry Store",
+    description:
+    "Spearheaded a mobile-optimized Shopify site, integrating APIs for streamlined product management and boosting page performance",
     image: project2,
   },
   {
-    id: 3,
-    year: 2024,
-    title: "Atomic - AI driven outsourcing",
-    description: "Atomic is our AI-driven outreach tool that maximizes engagement and conversions through intelligent automation.",
+    id: 2,
+    year: 2022,
+    title: "Men’s Accessories Store",
+    description:
+    "Customized a Magento 2 storefront with RTL support and optimized themes for a seamless shopping experience.",
     image: project3,
   },
+  {
+    id: 3,
+    year: 2023,
+    title: "Skincare Retailer",
+    description:
+    "Redesigned product pages and checkout flows, leading to a 20% improvement in conversion rates.",
+    image: project1,
+  },
+  {
+    id: 4,
+    year: 2024,
+    title: "Luxury Furniture Store",
+    description:
+    "Developed a high-performance e-commerce site using Next.js, integrating server-side rendering (SSR) for SEO optimization and ensuring lightning-fast load times. Enhanced scalability and modularity by implementing reusable React components for product pages, checkout flows, and marketing banners.",
+    image: project4,
+  }
 ];
 
 const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "DD335C"];
@@ -49,11 +66,15 @@ export const Portfolio = () => {
   const backgroundImage = useMotionTemplate`radial-gradient(125% 125% at 50% 0%, #000 50%, ${color})`;
 
   return (
-    <motion.section id="portfolio" className="py-32 text-white" style={{ backgroundImage }}>
+    <motion.section
+      id="portfolio"
+      className="py-32 text-white"
+      style={{ backgroundImage }}
+    >
       <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12">
         <div>
           <h2 className="text-6xl font-bold mb-10">
-            Selected <span className="text-purple-400">Projects</span>
+            Notable <span className="text-purple-400">Projects</span>
           </h2>
           {projects.map((project) => (
             <div
