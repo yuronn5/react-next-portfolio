@@ -1,5 +1,5 @@
-import { AiFillGithub, AiOutlineTwitter, AiFillFacebook, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { FaTelegramPlane } from 'react-icons/fa';
+import { AiFillFacebook, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+
 
 const socialLinks = [
   // { href: "https://github.com", Icon: AiFillGithub, label: "GitHub" },
