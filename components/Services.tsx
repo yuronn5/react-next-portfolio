@@ -1,39 +1,39 @@
 const services = [
   {
     id: "01",
-    title: "Web Design",
+    title: "E-Commerce Development",
     description:
-      "Crafting visually stunning and user-friendly websites tailored to your brand's identity and goals.",
+      "Building high-performance, scalable e-commerce websites using Shopify, Magento 2, and Next.js. Expertise in delivering custom themes, optimizing storefronts, and integrating advanced features for seamless user experiences.",
   },
   {
     id: "02",
-    title: "SEO Optimization",
+    title: "Performance Optimization",
     description:
-      "Enhancing your website's visibility and ranking on search engines through strategic keyword integration and technical optimization.",
+      "Enhancing website speed and SEO scores with techniques like server-side rendering (SSR), code splitting, and optimized asset delivery. Proven track record of reducing page load times by 40% and achieving industry-leading performance metrics.",
   },
   {
     id: "03",
-    title: "UX/UI Design",
+    title: "Custom Front-End Development",
     description:
-      "Creating intuitive and engaging user experiences and interfaces that prioritize user satisfaction and ease of use.",
+      "Designing and implementing visually stunning, user-friendly, and mobile-responsive interfaces with React, TypeScript, and JavaScript. Specializing in creating interactive features like product filters, customized checkouts, and inventory management tools.",
   },
   {
     id: "04",
-    title: "Digital Marketing",
+    title: "API Integration & Customization",
     description:
-      "Strategizing and executing comprehensive digital marketing campaigns to boost your online presence and engagement.",
+      "Integrating and customizing Shopify and Magento APIs to streamline product management, improve automation, and enhance scalability. Building modular and reusable components to adapt to business needs.",
   },
   {
     id: "05",
-    title: "Content Creation",
+    title: "Multi-Platform Solutions",
     description:
-      "Crafting engaging and relevant content, including blogs, videos, and graphics, to connect with your audience and enhance your brand story.",
+      "Delivering solutions for multi-store platforms with consistent branding and optimized customer journeys. Expertise in managing platforms with 15+ unique storefronts, ensuring seamless scalability and modularity.",
   },
   {
     id: "06",
-    title: "Social Media Management",
+    title: "Technical Consulting & Mentorship",
     description:
-      "Managing your social media channels to build brand awareness, engage your audience, and grow your online presence.",
+      "Providing expert consulting services to optimize development workflows and mentor junior developers, fostering growth in front-end technologies and e-commerce platforms.",
   },
 ];
 
