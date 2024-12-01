@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import obj from "@/assets/obj1.png";
+// import obj from "@/assets/obj1.png";
 import profilepic from "@/assets/profilepic.png";
 import { animate, useMotionTemplate, useMotionValue } from "framer-motion";
 import { useEffect } from "react";
