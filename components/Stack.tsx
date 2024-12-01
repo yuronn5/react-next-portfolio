@@ -8,6 +8,24 @@ import { SiShopify, SiMagento } from "react-icons/si";
 
 const stackItems = [
   {
+    id: 5,
+    name: "Shopify",
+    icon: SiShopify,
+    color: "#7AB55C",
+  },
+  {
+    id: 6,
+    name: "Magento 2",
+    icon: SiMagento,
+    color: "#D45D26",
+  },
+  {
+    id: 4,
+    name: "Next.js",
+    icon: TbBrandNextjs,
+    color: "#000000",
+  },
+  {
     id: 1,
     name: "React",
     icon: FaReact,
@@ -25,25 +43,6 @@ const stackItems = [
     name: "PHP",
     icon: SiPhp,
     color: "#8B008B",
-  },
-
-  {
-    id: 4,
-    name: "Next.js",
-    icon: TbBrandNextjs,
-    color: "#000000",
-  },
-  {
-    id: 5,
-    name: "Shopify",
-    icon: SiShopify,
-    color: "#7AB55C",
-  },
-  {
-    id: 6,
-    name: "Magento 2",
-    icon: SiMagento,
-    color: "#D45D26",
   },
   {
     id: 7,
