@@ -18,6 +18,7 @@ import phpLogo from "../assets/php-icon.png";
 import sassLogo from "../assets/sass-icon.png";
 import shopifyLogo from "../assets/shoify-icon.png";
 import tsLogo from "../assets/ts-icon.svg";
+import wpLogo from "../assets/wordpress-logo.png";
 
 const images = [
   { src: reactLogo, alt: "figma", name: "React", },
@@ -31,6 +32,7 @@ const images = [
   { src: m2Logo, alt: "figma", name: "M2", },
   { src: dockerLogo, alt: "figma", name: "Docker", },
   { src: shopifyLogo, alt: "figma", name: "Shopify", },
+  { src: wpLogo, alt: "figma", name: "WordPress", },
   { src: reactLogo, alt: "figma", name: "React", },
   { src: nextLogo, alt: "figma", name: "Next.js" },
   { src: reactLogo, alt: "figma", name: "React", },
@@ -44,6 +46,7 @@ const images = [
   { src: m2Logo, alt: "figma", name: "M2", },
   { src: dockerLogo, alt: "figma", name: "Docker", },
   { src: shopifyLogo, alt: "figma", name: "Shopify", },
+  { src: wpLogo, alt: "figma", name: "WordPress", },
   { src: reactLogo, alt: "figma", name: "React", },
   { src: nextLogo, alt: "figma", name: "Next.js" },
   { src: reactLogo, alt: "figma", name: "React", },
@@ -57,8 +60,7 @@ const images = [
   { src: m2Logo, alt: "figma", name: "M2", },
   { src: dockerLogo, alt: "figma", name: "Docker", },
   { src: shopifyLogo, alt: "figma", name: "Shopify", },
-  { src: reactLogo, alt: "figma", name: "React", },
-  { src: nextLogo, alt: "figma", name: "Next.js" },
+  { src: wpLogo, alt: "figma", name: "WordPress", },
 ];
 
 export const LogoAnimation = () => {
