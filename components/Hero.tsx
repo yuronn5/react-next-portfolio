@@ -110,6 +110,18 @@ export const Hero = () => {
           View Resume
           <FiArrowRight />
         </motion.a>
+        <motion.a
+          href="https://www.linkedin.com/in/yurii-bilous-a02185208/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ border, boxShadow }}
+          whileHover={{ scale: 1.015 }}
+          whileTap={{ scale: 0.985 }}
+          className="flex w-fit items-center gap-2 rounded-full px-4 py-2 mt-5"
+        >
+          View LinkedIn
+          <FiArrowRight />
+        </motion.a>
       </div>
 
       <div className="bg-circle-container">
