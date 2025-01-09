@@ -98,7 +98,7 @@ export const Hero = () => {
           Building high-performance e-commerce solutions with React, Next.js,
           Shopify, and Magento
         </p>
-        <motion.a
+        {/* <motion.a
           href="/CV/Yurii_Bilous_ECommerce_Developer.pdf"
           target="_blank"
           rel="noopener noreferrer"
@@ -109,7 +109,7 @@ export const Hero = () => {
         >
           View Resume
           <FiArrowRight />
-        </motion.a>
+        </motion.a> */}
         <motion.a
           href="https://www.linkedin.com/in/yurii-bilous-a02185208/"
           target="_blank"
