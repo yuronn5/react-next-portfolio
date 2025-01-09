@@ -3,7 +3,7 @@ import { AiFillFacebook, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
 
 const socialLinks = [
   // { href: "https://github.com", Icon: AiFillGithub, label: "GitHub" },
-  { href: "https://www.linkedin.com/in/yurii-bilous-a02185208/", Icon: AiFillLinkedin, label: "LinkedIn" },
+  { href: "https://www.linkedin.com/in/yurii-bilous", Icon: AiFillLinkedin, label: "LinkedIn" },
   // { href: "https://x.com", Icon: AiOutlineTwitter, label: "X (Twitter)" },
   { href: "https://www.facebook.com/profile.php?id=61567791037851", Icon: AiFillFacebook, label: "Facebook" },
   { href: "https://www.instagram.com/yourockzz/", Icon: AiFillInstagram, label: "Instagram" },
